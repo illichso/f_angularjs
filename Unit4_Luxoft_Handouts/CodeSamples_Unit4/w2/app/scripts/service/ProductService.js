@@ -1,42 +1,33 @@
 (function () {
-  'use strict';
+    'use strict';
 
-  var ProductService = function ($http) {
-    // Instance attributes go here:
-    this.$http = $http;
-  };
+    var ProductService = function (Restangular) {
+        // Instance attributes go here:
+        this.Restangular = Restangular;
+    };
 
-  /** List all dependencies required by the service. */
-  ProductService.$inject = ['$http'];
+    /** List all dependencies required by the service. */
+    ProductService.$inject = ['Restangular'];
 
-  // Instance methods go here:
-  ProductService.prototype = {
+    // Instance methods go here:
+    ProductService.prototype = {
 
-    /** Returns the list of all available products on the server. */
-    getProducts: function () {
-      return this.$http.get('data/products-featured.json')
-          .then(function (resp) { return resp.data; });
-    },
+        /** Returns the list of all available products on the server. */
+        getProducts: function () {
+            return this.Restangular.all('products').getList();
+        },
 
-    /** Finds products with specified criteria.
-      * NOTE: Search criteria are not implemented yet.
-      */
-    find: function () {
-      return this.$http.get('data/products-search.json')
-          .then(function (resp) { return resp.data; });
-    },
+        /** Finds products with specified criteria. */
+        find: function (params) {
+            return this.Restangular.all('products').getList(params);
+        },
 
+        /** Finds products by its ID. */
+        getProductById: function (productId) {
+            return this.Restangular.one('products', productId).get();
+        }
+    };
 
-    /** Finds products by its ID. */
-    getProductById: function (productId) {
-      return this.getProducts().then(function (products) {
-          return _.find(products, function (product) {
-              return product.id === productId;
-          });
-      });
-    }
-  };
-
-  // Register the service within AngularJS DI container.
-  angular.module('auction').service('ProductService', ProductService);
+    // Register the service within AngularJS DI container.
+    angular.module('auction').service('ProductService', ProductService);
 }());

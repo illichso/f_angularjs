@@ -1,0 +1,910 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/6.1.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@3.8.9
+3 info using node@v6.1.0
+4 verbose config Skipping project config: /Users/s/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly install normalizeTree
+9 silly loadCurrentTree Finishing
+10 silly loadIdealTree Starting
+11 silly install loadIdealTree
+12 silly cloneCurrentTree Starting
+13 silly install cloneCurrentTreeToIdealTree
+14 silly cloneCurrentTree Finishing
+15 silly loadShrinkwrap Starting
+16 silly install loadShrinkwrap
+17 silly loadShrinkwrap Finishing
+18 silly loadAllDepsIntoIdealTree Starting
+19 silly install loadAllDepsIntoIdealTree
+20 silly loadAllDepsIntoIdealTree Finishing
+21 silly idealTree:prePrune s
+21 silly idealTree:prePrune ├── amdefine
+21 silly idealTree:prePrune ├── ansi-green
+21 silly idealTree:prePrune ├── ansi-regex
+21 silly idealTree:prePrune ├── ansi-styles
+21 silly idealTree:prePrune ├── ansi-wrap
+21 silly idealTree:prePrune ├── anymatch
+21 silly idealTree:prePrune ├── arr-diff
+21 silly idealTree:prePrune ├── arr-flatten
+21 silly idealTree:prePrune ├── array-uniq
+21 silly idealTree:prePrune ├── array-unique
+21 silly idealTree:prePrune ├── arrify
+21 silly idealTree:prePrune ├── asn1
+21 silly idealTree:prePrune ├── assert-plus
+21 silly idealTree:prePrune ├── async
+21 silly idealTree:prePrune ├── async-each
+21 silly idealTree:prePrune ├── aws-sign2
+21 silly idealTree:prePrune ├── babel-cli
+21 silly idealTree:prePrune ├── babel-code-frame
+21 silly idealTree:prePrune ├── babel-core
+21 silly idealTree:prePrune ├── babel-generator
+21 silly idealTree:prePrune ├── babel-helpers
+21 silly idealTree:prePrune ├── babel-messages
+21 silly idealTree:prePrune ├── babel-polyfill
+21 silly idealTree:prePrune ├── babel-regenerator-runtime
+21 silly idealTree:prePrune ├── babel-register
+21 silly idealTree:prePrune ├── babel-runtime
+21 silly idealTree:prePrune ├── babel-template
+21 silly idealTree:prePrune ├── babel-traverse
+21 silly idealTree:prePrune ├── babel-types
+21 silly idealTree:prePrune ├── babylon
+21 silly idealTree:prePrune ├── balanced-match
+21 silly idealTree:prePrune ├── bin-version
+21 silly idealTree:prePrune ├── bin-version-check
+21 silly idealTree:prePrune ├── binary-extensions
+21 silly idealTree:prePrune ├── bl
+21 silly idealTree:prePrune ├── boom
+21 silly idealTree:prePrune ├── brace-expansion
+21 silly idealTree:prePrune ├── braces
+21 silly idealTree:prePrune ├── builtin-modules
+21 silly idealTree:prePrune ├── camelcase
+21 silly idealTree:prePrune ├── camelcase-keys
+21 silly idealTree:prePrune ├── caseless
+21 silly idealTree:prePrune ├── chalk
+21 silly idealTree:prePrune ├── chokidar
+21 silly idealTree:prePrune ├── combined-stream
+21 silly idealTree:prePrune ├── commander
+21 silly idealTree:prePrune ├── concat-map
+21 silly idealTree:prePrune ├── convert-source-map
+21 silly idealTree:prePrune ├── core-js
+21 silly idealTree:prePrune ├── core-util-is
+21 silly idealTree:prePrune ├── cryptiles
+21 silly idealTree:prePrune ├── dashdash
+21 silly idealTree:prePrune ├── debug
+21 silly idealTree:prePrune ├── delayed-stream
+21 silly idealTree:prePrune ├── detect-indent
+21 silly idealTree:prePrune ├── ecc-jsbn
+21 silly idealTree:prePrune ├── error-ex
+21 silly idealTree:prePrune ├── escape-string-regexp
+21 silly idealTree:prePrune ├── esutils
+21 silly idealTree:prePrune ├── expand-brackets
+21 silly idealTree:prePrune ├── expand-range
+21 silly idealTree:prePrune ├── extend
+21 silly idealTree:prePrune ├── extglob
+21 silly idealTree:prePrune ├── extsprintf
+21 silly idealTree:prePrune ├── filename-regex
+21 silly idealTree:prePrune ├── fill-range
+21 silly idealTree:prePrune ├─┬ find-up
+21 silly idealTree:prePrune │ └── path-exists
+21 silly idealTree:prePrune ├── find-versions
+21 silly idealTree:prePrune ├── for-in
+21 silly idealTree:prePrune ├── for-own
+21 silly idealTree:prePrune ├── forever-agent
+21 silly idealTree:prePrune ├── form-data
+21 silly idealTree:prePrune ├── fs-readdir-recursive
+21 silly idealTree:prePrune ├── fsevents
+21 silly idealTree:prePrune ├── generate-function
+21 silly idealTree:prePrune ├── generate-object-property
+21 silly idealTree:prePrune ├── get-stdin
+21 silly idealTree:prePrune ├── glob
+21 silly idealTree:prePrune ├── glob-base
+21 silly idealTree:prePrune ├── glob-parent
+21 silly idealTree:prePrune ├── globals
+21 silly idealTree:prePrune ├── graceful-fs
+21 silly idealTree:prePrune ├── graceful-readlink
+21 silly idealTree:prePrune ├── har-validator
+21 silly idealTree:prePrune ├── has-ansi
+21 silly idealTree:prePrune ├── hawk
+21 silly idealTree:prePrune ├── hoek
+21 silly idealTree:prePrune ├── home-or-tmp
+21 silly idealTree:prePrune ├── hosted-git-info
+21 silly idealTree:prePrune ├── http-signature
+21 silly idealTree:prePrune ├─┬ indent-string
+21 silly idealTree:prePrune │ └── repeating
+21 silly idealTree:prePrune ├── inflight
+21 silly idealTree:prePrune ├── inherits
+21 silly idealTree:prePrune ├── invariant
+21 silly idealTree:prePrune ├── is-arrayish
+21 silly idealTree:prePrune ├── is-binary-path
+21 silly idealTree:prePrune ├── is-buffer
+21 silly idealTree:prePrune ├── is-builtin-module
+21 silly idealTree:prePrune ├── is-dotfile
+21 silly idealTree:prePrune ├── is-equal-shallow
+21 silly idealTree:prePrune ├── is-extendable
+21 silly idealTree:prePrune ├── is-extglob
+21 silly idealTree:prePrune ├── is-finite
+21 silly idealTree:prePrune ├── is-glob
+21 silly idealTree:prePrune ├── is-integer
+21 silly idealTree:prePrune ├── is-my-json-valid
+21 silly idealTree:prePrune ├── is-number
+21 silly idealTree:prePrune ├── is-primitive
+21 silly idealTree:prePrune ├── is-property
+21 silly idealTree:prePrune ├── is-typedarray
+21 silly idealTree:prePrune ├── is-utf8
+21 silly idealTree:prePrune ├── isarray
+21 silly idealTree:prePrune ├── isobject
+21 silly idealTree:prePrune ├── isstream
+21 silly idealTree:prePrune ├── jodid25519
+21 silly idealTree:prePrune ├── js-tokens
+21 silly idealTree:prePrune ├── jsbn
+21 silly idealTree:prePrune ├── json-schema
+21 silly idealTree:prePrune ├── json-stringify-safe
+21 silly idealTree:prePrune ├── json5
+21 silly idealTree:prePrune ├── jsonpointer
+21 silly idealTree:prePrune ├── jsprim
+21 silly idealTree:prePrune ├── kind-of
+21 silly idealTree:prePrune ├── lazy-cache
+21 silly idealTree:prePrune ├── left-pad
+21 silly idealTree:prePrune ├── line-numbers
+21 silly idealTree:prePrune ├── load-json-file
+21 silly idealTree:prePrune ├── lodash
+21 silly idealTree:prePrune ├── log-symbols
+21 silly idealTree:prePrune ├── loose-envify
+21 silly idealTree:prePrune ├── loud-rejection
+21 silly idealTree:prePrune ├── map-obj
+21 silly idealTree:prePrune ├── meow
+21 silly idealTree:prePrune ├── micromatch
+21 silly idealTree:prePrune ├── mime-db
+21 silly idealTree:prePrune ├── mime-types
+21 silly idealTree:prePrune ├── minimatch
+21 silly idealTree:prePrune ├── minimist
+21 silly idealTree:prePrune ├─┬ mkdirp
+21 silly idealTree:prePrune │ └── minimist
+21 silly idealTree:prePrune ├── ms
+21 silly idealTree:prePrune ├── nan
+21 silly idealTree:prePrune ├── node-uuid
+21 silly idealTree:prePrune ├── normalize-package-data
+21 silly idealTree:prePrune ├── normalize-path
+21 silly idealTree:prePrune ├── number-is-nan
+21 silly idealTree:prePrune ├── oauth-sign
+21 silly idealTree:prePrune ├── object-assign
+21 silly idealTree:prePrune ├── object.omit
+21 silly idealTree:prePrune ├── once
+21 silly idealTree:prePrune ├── os-tmpdir
+21 silly idealTree:prePrune ├── output-file-sync
+21 silly idealTree:prePrune ├── parse-glob
+21 silly idealTree:prePrune ├── parse-json
+21 silly idealTree:prePrune ├── path-exists
+21 silly idealTree:prePrune ├── path-is-absolute
+21 silly idealTree:prePrune ├── path-type
+21 silly idealTree:prePrune ├── pify
+21 silly idealTree:prePrune ├── pinkie
+21 silly idealTree:prePrune ├── pinkie-promise
+21 silly idealTree:prePrune ├── preserve
+21 silly idealTree:prePrune ├── private
+21 silly idealTree:prePrune ├── process-nextick-args
+21 silly idealTree:prePrune ├── qs
+21 silly idealTree:prePrune ├── randomatic
+21 silly idealTree:prePrune ├── read-pkg
+21 silly idealTree:prePrune ├── read-pkg-up
+21 silly idealTree:prePrune ├── readable-stream
+21 silly idealTree:prePrune ├── readdirp
+21 silly idealTree:prePrune ├── redent
+21 silly idealTree:prePrune ├── regex-cache
+21 silly idealTree:prePrune ├── repeat-element
+21 silly idealTree:prePrune ├── repeat-string
+21 silly idealTree:prePrune ├── repeating
+21 silly idealTree:prePrune ├── request
+21 silly idealTree:prePrune ├── semver
+21 silly idealTree:prePrune ├── semver-regex
+21 silly idealTree:prePrune ├─┬ semver-truncate
+21 silly idealTree:prePrune │ └── semver
+21 silly idealTree:prePrune ├── shebang-regex
+21 silly idealTree:prePrune ├── signal-exit
+21 silly idealTree:prePrune ├── slash
+21 silly idealTree:prePrune ├── sntp
+21 silly idealTree:prePrune ├── source-map
+21 silly idealTree:prePrune ├─┬ source-map-support
+21 silly idealTree:prePrune │ └── source-map
+21 silly idealTree:prePrune ├── spdx-correct
+21 silly idealTree:prePrune ├── spdx-exceptions
+21 silly idealTree:prePrune ├── spdx-expression-parse
+21 silly idealTree:prePrune ├── spdx-license-ids
+21 silly idealTree:prePrune ├─┬ sshpk
+21 silly idealTree:prePrune │ └── assert-plus
+21 silly idealTree:prePrune ├── string_decoder
+21 silly idealTree:prePrune ├── stringstream
+21 silly idealTree:prePrune ├── strip-ansi
+21 silly idealTree:prePrune ├── strip-bom
+21 silly idealTree:prePrune ├── strip-indent
+21 silly idealTree:prePrune ├── success-symbol
+21 silly idealTree:prePrune ├── supports-color
+21 silly idealTree:prePrune ├── to-fast-properties
+21 silly idealTree:prePrune ├── tough-cookie
+21 silly idealTree:prePrune ├── trim-newlines
+21 silly idealTree:prePrune ├── trim-right
+21 silly idealTree:prePrune ├── tunnel-agent
+21 silly idealTree:prePrune ├── tweetnacl
+21 silly idealTree:prePrune ├── user-home
+21 silly idealTree:prePrune ├── util-deprecate
+21 silly idealTree:prePrune ├── v8flags
+21 silly idealTree:prePrune ├── validate-npm-package-license
+21 silly idealTree:prePrune ├── verror
+21 silly idealTree:prePrune ├── wrappy
+21 silly idealTree:prePrune └── xtend
+22 silly loadIdealTree Finishing
+23 silly currentTree s
+23 silly currentTree ├── amdefine
+23 silly currentTree ├── ansi-green
+23 silly currentTree ├── ansi-regex
+23 silly currentTree ├── ansi-styles
+23 silly currentTree ├── ansi-wrap
+23 silly currentTree ├── anymatch
+23 silly currentTree ├── arr-diff
+23 silly currentTree ├── arr-flatten
+23 silly currentTree ├── array-uniq
+23 silly currentTree ├── array-unique
+23 silly currentTree ├── arrify
+23 silly currentTree ├── asn1
+23 silly currentTree ├── assert-plus
+23 silly currentTree ├── async
+23 silly currentTree ├── async-each
+23 silly currentTree ├── aws-sign2
+23 silly currentTree ├── babel-cli
+23 silly currentTree ├── babel-code-frame
+23 silly currentTree ├── babel-core
+23 silly currentTree ├── babel-generator
+23 silly currentTree ├── babel-helpers
+23 silly currentTree ├── babel-messages
+23 silly currentTree ├── babel-polyfill
+23 silly currentTree ├── babel-regenerator-runtime
+23 silly currentTree ├── babel-register
+23 silly currentTree ├── babel-runtime
+23 silly currentTree ├── babel-template
+23 silly currentTree ├── babel-traverse
+23 silly currentTree ├── babel-types
+23 silly currentTree ├── babylon
+23 silly currentTree ├── balanced-match
+23 silly currentTree ├── bin-version
+23 silly currentTree ├── bin-version-check
+23 silly currentTree ├── binary-extensions
+23 silly currentTree ├── bl
+23 silly currentTree ├── boom
+23 silly currentTree ├── brace-expansion
+23 silly currentTree ├── braces
+23 silly currentTree ├── builtin-modules
+23 silly currentTree ├── camelcase
+23 silly currentTree ├── camelcase-keys
+23 silly currentTree ├── caseless
+23 silly currentTree ├── chalk
+23 silly currentTree ├── chokidar
+23 silly currentTree ├── combined-stream
+23 silly currentTree ├── commander
+23 silly currentTree ├── concat-map
+23 silly currentTree ├── convert-source-map
+23 silly currentTree ├── core-js
+23 silly currentTree ├── core-util-is
+23 silly currentTree ├── cryptiles
+23 silly currentTree ├── dashdash
+23 silly currentTree ├── debug
+23 silly currentTree ├── delayed-stream
+23 silly currentTree ├── detect-indent
+23 silly currentTree ├── ecc-jsbn
+23 silly currentTree ├── error-ex
+23 silly currentTree ├── escape-string-regexp
+23 silly currentTree ├── esutils
+23 silly currentTree ├── expand-brackets
+23 silly currentTree ├── expand-range
+23 silly currentTree ├── extend
+23 silly currentTree ├── extglob
+23 silly currentTree ├── extsprintf
+23 silly currentTree ├── filename-regex
+23 silly currentTree ├── fill-range
+23 silly currentTree ├─┬ find-up
+23 silly currentTree │ └── path-exists
+23 silly currentTree ├── find-versions
+23 silly currentTree ├── for-in
+23 silly currentTree ├── for-own
+23 silly currentTree ├── forever-agent
+23 silly currentTree ├── form-data
+23 silly currentTree ├── fs-readdir-recursive
+23 silly currentTree ├── fsevents
+23 silly currentTree ├── generate-function
+23 silly currentTree ├── generate-object-property
+23 silly currentTree ├── get-stdin
+23 silly currentTree ├── glob
+23 silly currentTree ├── glob-base
+23 silly currentTree ├── glob-parent
+23 silly currentTree ├── globals
+23 silly currentTree ├── graceful-fs
+23 silly currentTree ├── graceful-readlink
+23 silly currentTree ├── har-validator
+23 silly currentTree ├── has-ansi
+23 silly currentTree ├── hawk
+23 silly currentTree ├── hoek
+23 silly currentTree ├── home-or-tmp
+23 silly currentTree ├── hosted-git-info
+23 silly currentTree ├── http-signature
+23 silly currentTree ├─┬ indent-string
+23 silly currentTree │ └── repeating
+23 silly currentTree ├── inflight
+23 silly currentTree ├── inherits
+23 silly currentTree ├── invariant
+23 silly currentTree ├── is-arrayish
+23 silly currentTree ├── is-binary-path
+23 silly currentTree ├── is-buffer
+23 silly currentTree ├── is-builtin-module
+23 silly currentTree ├── is-dotfile
+23 silly currentTree ├── is-equal-shallow
+23 silly currentTree ├── is-extendable
+23 silly currentTree ├── is-extglob
+23 silly currentTree ├── is-finite
+23 silly currentTree ├── is-glob
+23 silly currentTree ├── is-integer
+23 silly currentTree ├── is-my-json-valid
+23 silly currentTree ├── is-number
+23 silly currentTree ├── is-primitive
+23 silly currentTree ├── is-property
+23 silly currentTree ├── is-typedarray
+23 silly currentTree ├── is-utf8
+23 silly currentTree ├── isarray
+23 silly currentTree ├── isobject
+23 silly currentTree ├── isstream
+23 silly currentTree ├── jodid25519
+23 silly currentTree ├── js-tokens
+23 silly currentTree ├── jsbn
+23 silly currentTree ├── json-schema
+23 silly currentTree ├── json-stringify-safe
+23 silly currentTree ├── json5
+23 silly currentTree ├── jsonpointer
+23 silly currentTree ├── jsprim
+23 silly currentTree ├── kind-of
+23 silly currentTree ├── lazy-cache
+23 silly currentTree ├── left-pad
+23 silly currentTree ├── line-numbers
+23 silly currentTree ├── load-json-file
+23 silly currentTree ├── lodash
+23 silly currentTree ├── log-symbols
+23 silly currentTree ├── loose-envify
+23 silly currentTree ├── loud-rejection
+23 silly currentTree ├── map-obj
+23 silly currentTree ├── meow
+23 silly currentTree ├── micromatch
+23 silly currentTree ├── mime-db
+23 silly currentTree ├── mime-types
+23 silly currentTree ├── minimatch
+23 silly currentTree ├── minimist
+23 silly currentTree ├─┬ mkdirp
+23 silly currentTree │ └── minimist
+23 silly currentTree ├── ms
+23 silly currentTree ├── nan
+23 silly currentTree ├── node-uuid
+23 silly currentTree ├── normalize-package-data
+23 silly currentTree ├── normalize-path
+23 silly currentTree ├── number-is-nan
+23 silly currentTree ├── oauth-sign
+23 silly currentTree ├── object-assign
+23 silly currentTree ├── object.omit
+23 silly currentTree ├── once
+23 silly currentTree ├── os-tmpdir
+23 silly currentTree ├── output-file-sync
+23 silly currentTree ├── parse-glob
+23 silly currentTree ├── parse-json
+23 silly currentTree ├── path-exists
+23 silly currentTree ├── path-is-absolute
+23 silly currentTree ├── path-type
+23 silly currentTree ├── pify
+23 silly currentTree ├── pinkie
+23 silly currentTree ├── pinkie-promise
+23 silly currentTree ├── preserve
+23 silly currentTree ├── private
+23 silly currentTree ├── process-nextick-args
+23 silly currentTree ├── qs
+23 silly currentTree ├── randomatic
+23 silly currentTree ├── read-pkg
+23 silly currentTree ├── read-pkg-up
+23 silly currentTree ├── readable-stream
+23 silly currentTree ├── readdirp
+23 silly currentTree ├── redent
+23 silly currentTree ├── regex-cache
+23 silly currentTree ├── repeat-element
+23 silly currentTree ├── repeat-string
+23 silly currentTree ├── repeating
+23 silly currentTree ├── request
+23 silly currentTree ├── semver
+23 silly currentTree ├── semver-regex
+23 silly currentTree ├─┬ semver-truncate
+23 silly currentTree │ └── semver
+23 silly currentTree ├── shebang-regex
+23 silly currentTree ├── signal-exit
+23 silly currentTree ├── slash
+23 silly currentTree ├── sntp
+23 silly currentTree ├── source-map
+23 silly currentTree ├─┬ source-map-support
+23 silly currentTree │ └── source-map
+23 silly currentTree ├── spdx-correct
+23 silly currentTree ├── spdx-exceptions
+23 silly currentTree ├── spdx-expression-parse
+23 silly currentTree ├── spdx-license-ids
+23 silly currentTree ├─┬ sshpk
+23 silly currentTree │ └── assert-plus
+23 silly currentTree ├── string_decoder
+23 silly currentTree ├── stringstream
+23 silly currentTree ├── strip-ansi
+23 silly currentTree ├── strip-bom
+23 silly currentTree ├── strip-indent
+23 silly currentTree ├── success-symbol
+23 silly currentTree ├── supports-color
+23 silly currentTree ├── to-fast-properties
+23 silly currentTree ├── tough-cookie
+23 silly currentTree ├── trim-newlines
+23 silly currentTree ├── trim-right
+23 silly currentTree ├── tunnel-agent
+23 silly currentTree ├── tweetnacl
+23 silly currentTree ├── user-home
+23 silly currentTree ├── util-deprecate
+23 silly currentTree ├── v8flags
+23 silly currentTree ├── validate-npm-package-license
+23 silly currentTree ├── verror
+23 silly currentTree ├── wrappy
+23 silly currentTree └── xtend
+24 silly idealTree s
+24 silly idealTree ├── amdefine
+24 silly idealTree ├── ansi-green
+24 silly idealTree ├── ansi-regex
+24 silly idealTree ├── ansi-styles
+24 silly idealTree ├── ansi-wrap
+24 silly idealTree ├── anymatch
+24 silly idealTree ├── arr-diff
+24 silly idealTree ├── arr-flatten
+24 silly idealTree ├── array-uniq
+24 silly idealTree ├── array-unique
+24 silly idealTree ├── arrify
+24 silly idealTree ├── asn1
+24 silly idealTree ├── assert-plus
+24 silly idealTree ├── async
+24 silly idealTree ├── async-each
+24 silly idealTree ├── aws-sign2
+24 silly idealTree ├── babel-cli
+24 silly idealTree ├── babel-code-frame
+24 silly idealTree ├── babel-core
+24 silly idealTree ├── babel-generator
+24 silly idealTree ├── babel-helpers
+24 silly idealTree ├── babel-messages
+24 silly idealTree ├── babel-polyfill
+24 silly idealTree ├── babel-regenerator-runtime
+24 silly idealTree ├── babel-register
+24 silly idealTree ├── babel-runtime
+24 silly idealTree ├── babel-template
+24 silly idealTree ├── babel-traverse
+24 silly idealTree ├── babel-types
+24 silly idealTree ├── babylon
+24 silly idealTree ├── balanced-match
+24 silly idealTree ├── bin-version
+24 silly idealTree ├── bin-version-check
+24 silly idealTree ├── binary-extensions
+24 silly idealTree ├── bl
+24 silly idealTree ├── boom
+24 silly idealTree ├── brace-expansion
+24 silly idealTree ├── braces
+24 silly idealTree ├── builtin-modules
+24 silly idealTree ├── camelcase
+24 silly idealTree ├── camelcase-keys
+24 silly idealTree ├── caseless
+24 silly idealTree ├── chalk
+24 silly idealTree ├── chokidar
+24 silly idealTree ├── combined-stream
+24 silly idealTree ├── commander
+24 silly idealTree ├── concat-map
+24 silly idealTree ├── convert-source-map
+24 silly idealTree ├── core-js
+24 silly idealTree ├── core-util-is
+24 silly idealTree ├── cryptiles
+24 silly idealTree ├── dashdash
+24 silly idealTree ├── debug
+24 silly idealTree ├── delayed-stream
+24 silly idealTree ├── detect-indent
+24 silly idealTree ├── ecc-jsbn
+24 silly idealTree ├── error-ex
+24 silly idealTree ├── escape-string-regexp
+24 silly idealTree ├── esutils
+24 silly idealTree ├── expand-brackets
+24 silly idealTree ├── expand-range
+24 silly idealTree ├── extend
+24 silly idealTree ├── extglob
+24 silly idealTree ├── extsprintf
+24 silly idealTree ├── filename-regex
+24 silly idealTree ├── fill-range
+24 silly idealTree ├── find-up
+24 silly idealTree ├── find-versions
+24 silly idealTree ├── for-in
+24 silly idealTree ├── for-own
+24 silly idealTree ├── forever-agent
+24 silly idealTree ├── form-data
+24 silly idealTree ├── fs-readdir-recursive
+24 silly idealTree ├── fsevents
+24 silly idealTree ├── generate-function
+24 silly idealTree ├── generate-object-property
+24 silly idealTree ├── get-stdin
+24 silly idealTree ├── glob
+24 silly idealTree ├── glob-base
+24 silly idealTree ├── glob-parent
+24 silly idealTree ├── globals
+24 silly idealTree ├── graceful-fs
+24 silly idealTree ├── graceful-readlink
+24 silly idealTree ├── har-validator
+24 silly idealTree ├── has-ansi
+24 silly idealTree ├── hawk
+24 silly idealTree ├── hoek
+24 silly idealTree ├── home-or-tmp
+24 silly idealTree ├── hosted-git-info
+24 silly idealTree ├── http-signature
+24 silly idealTree ├── indent-string
+24 silly idealTree ├── inflight
+24 silly idealTree ├── inherits
+24 silly idealTree ├── invariant
+24 silly idealTree ├── is-arrayish
+24 silly idealTree ├── is-binary-path
+24 silly idealTree ├── is-buffer
+24 silly idealTree ├── is-builtin-module
+24 silly idealTree ├── is-dotfile
+24 silly idealTree ├── is-equal-shallow
+24 silly idealTree ├── is-extendable
+24 silly idealTree ├── is-extglob
+24 silly idealTree ├── is-finite
+24 silly idealTree ├── is-glob
+24 silly idealTree ├── is-integer
+24 silly idealTree ├── is-my-json-valid
+24 silly idealTree ├── is-number
+24 silly idealTree ├── is-primitive
+24 silly idealTree ├── is-property
+24 silly idealTree ├── is-typedarray
+24 silly idealTree ├── is-utf8
+24 silly idealTree ├── isarray
+24 silly idealTree ├── isobject
+24 silly idealTree ├── isstream
+24 silly idealTree ├── jodid25519
+24 silly idealTree ├── js-tokens
+24 silly idealTree ├── jsbn
+24 silly idealTree ├── json-schema
+24 silly idealTree ├── json-stringify-safe
+24 silly idealTree ├── json5
+24 silly idealTree ├── jsonpointer
+24 silly idealTree ├── jsprim
+24 silly idealTree ├── kind-of
+24 silly idealTree ├── lazy-cache
+24 silly idealTree ├── left-pad
+24 silly idealTree ├── line-numbers
+24 silly idealTree ├── load-json-file
+24 silly idealTree ├── lodash
+24 silly idealTree ├── log-symbols
+24 silly idealTree ├── loose-envify
+24 silly idealTree ├── loud-rejection
+24 silly idealTree ├── map-obj
+24 silly idealTree ├── meow
+24 silly idealTree ├── micromatch
+24 silly idealTree ├── mime-db
+24 silly idealTree ├── mime-types
+24 silly idealTree ├── minimatch
+24 silly idealTree ├── minimist
+24 silly idealTree ├── mkdirp
+24 silly idealTree ├── ms
+24 silly idealTree ├── nan
+24 silly idealTree ├── node-uuid
+24 silly idealTree ├── normalize-package-data
+24 silly idealTree ├── normalize-path
+24 silly idealTree ├── number-is-nan
+24 silly idealTree ├── oauth-sign
+24 silly idealTree ├── object-assign
+24 silly idealTree ├── object.omit
+24 silly idealTree ├── once
+24 silly idealTree ├── os-tmpdir
+24 silly idealTree ├── output-file-sync
+24 silly idealTree ├── parse-glob
+24 silly idealTree ├── parse-json
+24 silly idealTree ├── path-exists
+24 silly idealTree ├── path-is-absolute
+24 silly idealTree ├── path-type
+24 silly idealTree ├── pify
+24 silly idealTree ├── pinkie
+24 silly idealTree ├── pinkie-promise
+24 silly idealTree ├── preserve
+24 silly idealTree ├── private
+24 silly idealTree ├── process-nextick-args
+24 silly idealTree ├── qs
+24 silly idealTree ├── randomatic
+24 silly idealTree ├── read-pkg
+24 silly idealTree ├── read-pkg-up
+24 silly idealTree ├── readable-stream
+24 silly idealTree ├── readdirp
+24 silly idealTree ├── redent
+24 silly idealTree ├── regex-cache
+24 silly idealTree ├── repeat-element
+24 silly idealTree ├── repeat-string
+24 silly idealTree ├── repeating
+24 silly idealTree ├── request
+24 silly idealTree ├── semver
+24 silly idealTree ├── semver-regex
+24 silly idealTree ├── semver-truncate
+24 silly idealTree ├── shebang-regex
+24 silly idealTree ├── signal-exit
+24 silly idealTree ├── slash
+24 silly idealTree ├── sntp
+24 silly idealTree ├── source-map
+24 silly idealTree ├── source-map-support
+24 silly idealTree ├── spdx-correct
+24 silly idealTree ├── spdx-exceptions
+24 silly idealTree ├── spdx-expression-parse
+24 silly idealTree ├── spdx-license-ids
+24 silly idealTree ├── sshpk
+24 silly idealTree ├── string_decoder
+24 silly idealTree ├── stringstream
+24 silly idealTree ├── strip-ansi
+24 silly idealTree ├── strip-bom
+24 silly idealTree ├── strip-indent
+24 silly idealTree ├── success-symbol
+24 silly idealTree ├── supports-color
+24 silly idealTree ├── to-fast-properties
+24 silly idealTree ├── tough-cookie
+24 silly idealTree ├── trim-newlines
+24 silly idealTree ├── trim-right
+24 silly idealTree ├── tunnel-agent
+24 silly idealTree ├── tweetnacl
+24 silly idealTree ├── user-home
+24 silly idealTree ├── util-deprecate
+24 silly idealTree ├── v8flags
+24 silly idealTree ├── validate-npm-package-license
+24 silly idealTree ├── verror
+24 silly idealTree ├── wrappy
+24 silly idealTree └── xtend
+25 silly generateActionsToTake Starting
+26 silly install generateActionsToTake
+27 warn checkPermissions Missing write access to /Users/s/node_modules/find-up/node_modules
+28 warn checkPermissions Missing write access to /Users/s/node_modules/indent-string/node_modules
+29 warn checkPermissions Missing write access to /Users/s/node_modules/mkdirp/node_modules
+30 warn checkPermissions Missing write access to /Users/s/node_modules/semver-truncate/node_modules
+31 warn checkPermissions Missing write access to /Users/s/node_modules/source-map-support/node_modules
+32 warn checkPermissions Missing write access to /Users/s/node_modules/sshpk/node_modules
+33 silly rollbackFailedOptional Starting
+34 silly rollbackFailedOptional Finishing
+35 silly runTopLevelLifecycles Starting
+36 silly runTopLevelLifecycles Finishing
+37 silly install printInstalled
+38 warn enoent ENOENT: no such file or directory, open '/Users/s/package.json'
+39 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/amdefine/package.json'
+40 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/ansi-green/package.json'
+41 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/ansi-regex/package.json'
+42 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/ansi-styles/package.json'
+43 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/ansi-wrap/package.json'
+44 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/anymatch/package.json'
+45 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/arr-diff/package.json'
+46 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/arr-flatten/package.json'
+47 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/array-uniq/package.json'
+48 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/array-unique/package.json'
+49 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/arrify/package.json'
+50 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/asn1/package.json'
+51 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/assert-plus/package.json'
+52 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/async/package.json'
+53 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/async-each/package.json'
+54 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/aws-sign2/package.json'
+55 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/babel-cli/package.json'
+56 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/babel-code-frame/package.json'
+57 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/babel-core/package.json'
+58 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/babel-generator/package.json'
+59 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/babel-helpers/package.json'
+60 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/babel-messages/package.json'
+61 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/babel-polyfill/package.json'
+62 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/babel-regenerator-runtime/package.json'
+63 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/babel-register/package.json'
+64 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/babel-runtime/package.json'
+65 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/babel-template/package.json'
+66 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/babel-traverse/package.json'
+67 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/babel-types/package.json'
+68 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/babylon/package.json'
+69 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/balanced-match/package.json'
+70 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/bin-version/package.json'
+71 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/bin-version-check/package.json'
+72 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/bl/package.json'
+73 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/binary-extensions/package.json'
+74 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/boom/package.json'
+75 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/brace-expansion/package.json'
+76 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/braces/package.json'
+77 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/builtin-modules/package.json'
+78 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/camelcase/package.json'
+79 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/camelcase-keys/package.json'
+80 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/caseless/package.json'
+81 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/chalk/package.json'
+82 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/chokidar/package.json'
+83 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/combined-stream/package.json'
+84 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/commander/package.json'
+85 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/concat-map/package.json'
+86 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/convert-source-map/package.json'
+87 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/core-js/package.json'
+88 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/core-util-is/package.json'
+89 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/cryptiles/package.json'
+90 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/dashdash/package.json'
+91 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/debug/package.json'
+92 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/delayed-stream/package.json'
+93 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/detect-indent/package.json'
+94 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/ecc-jsbn/package.json'
+95 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/error-ex/package.json'
+96 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/escape-string-regexp/package.json'
+97 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/esutils/package.json'
+98 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/expand-brackets/package.json'
+99 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/expand-range/package.json'
+100 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/extend/package.json'
+101 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/extglob/package.json'
+102 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/extsprintf/package.json'
+103 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/filename-regex/package.json'
+104 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/fill-range/package.json'
+105 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/find-up/package.json'
+106 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/find-versions/package.json'
+107 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/for-in/package.json'
+108 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/for-own/package.json'
+109 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/forever-agent/package.json'
+110 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/form-data/package.json'
+111 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/fs-readdir-recursive/package.json'
+112 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/fsevents/package.json'
+113 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/generate-function/package.json'
+114 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/generate-object-property/package.json'
+115 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/get-stdin/package.json'
+116 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/glob/package.json'
+117 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/glob-base/package.json'
+118 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/glob-parent/package.json'
+119 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/globals/package.json'
+120 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/graceful-fs/package.json'
+121 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/graceful-readlink/package.json'
+122 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/har-validator/package.json'
+123 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/has-ansi/package.json'
+124 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/hawk/package.json'
+125 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/hoek/package.json'
+126 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/home-or-tmp/package.json'
+127 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/hosted-git-info/package.json'
+128 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/http-signature/package.json'
+129 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/indent-string/package.json'
+130 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/inflight/package.json'
+131 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/inherits/package.json'
+132 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/invariant/package.json'
+133 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/is-arrayish/package.json'
+134 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/is-binary-path/package.json'
+135 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/is-buffer/package.json'
+136 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/is-builtin-module/package.json'
+137 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/is-dotfile/package.json'
+138 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/is-equal-shallow/package.json'
+139 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/is-extendable/package.json'
+140 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/is-extglob/package.json'
+141 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/is-finite/package.json'
+142 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/is-glob/package.json'
+143 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/is-integer/package.json'
+144 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/is-my-json-valid/package.json'
+145 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/is-number/package.json'
+146 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/is-primitive/package.json'
+147 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/is-property/package.json'
+148 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/is-typedarray/package.json'
+149 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/is-utf8/package.json'
+150 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/isarray/package.json'
+151 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/isobject/package.json'
+152 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/isstream/package.json'
+153 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/jodid25519/package.json'
+154 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/js-tokens/package.json'
+155 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/jsbn/package.json'
+156 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/json-schema/package.json'
+157 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/json-stringify-safe/package.json'
+158 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/json5/package.json'
+159 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/jsonpointer/package.json'
+160 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/jsprim/package.json'
+161 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/kind-of/package.json'
+162 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/lazy-cache/package.json'
+163 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/left-pad/package.json'
+164 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/line-numbers/package.json'
+165 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/load-json-file/package.json'
+166 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/lodash/package.json'
+167 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/log-symbols/package.json'
+168 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/loose-envify/package.json'
+169 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/loud-rejection/package.json'
+170 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/map-obj/package.json'
+171 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/meow/package.json'
+172 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/micromatch/package.json'
+173 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/mime-types/package.json'
+174 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/mime-db/package.json'
+175 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/minimatch/package.json'
+176 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/minimist/package.json'
+177 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/mkdirp/package.json'
+178 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/ms/package.json'
+179 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/nan/package.json'
+180 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/node-uuid/package.json'
+181 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/normalize-package-data/package.json'
+182 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/normalize-path/package.json'
+183 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/number-is-nan/package.json'
+184 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/oauth-sign/package.json'
+185 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/object-assign/package.json'
+186 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/object.omit/package.json'
+187 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/once/package.json'
+188 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/os-tmpdir/package.json'
+189 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/output-file-sync/package.json'
+190 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/parse-glob/package.json'
+191 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/parse-json/package.json'
+192 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/path-exists/package.json'
+193 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/path-is-absolute/package.json'
+194 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/path-type/package.json'
+195 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/pify/package.json'
+196 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/pinkie/package.json'
+197 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/pinkie-promise/package.json'
+198 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/preserve/package.json'
+199 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/private/package.json'
+200 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/process-nextick-args/package.json'
+201 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/qs/package.json'
+202 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/randomatic/package.json'
+203 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/read-pkg/package.json'
+204 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/read-pkg-up/package.json'
+205 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/readable-stream/package.json'
+206 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/readdirp/package.json'
+207 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/redent/package.json'
+208 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/regex-cache/package.json'
+209 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/repeat-element/package.json'
+210 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/repeat-string/package.json'
+211 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/repeating/package.json'
+212 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/request/package.json'
+213 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/semver/package.json'
+214 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/semver-regex/package.json'
+215 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/semver-truncate/package.json'
+216 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/shebang-regex/package.json'
+217 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/signal-exit/package.json'
+218 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/slash/package.json'
+219 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/sntp/package.json'
+220 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/source-map/package.json'
+221 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/source-map-support/package.json'
+222 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/spdx-correct/package.json'
+223 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/spdx-exceptions/package.json'
+224 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/spdx-expression-parse/package.json'
+225 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/spdx-license-ids/package.json'
+226 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/sshpk/package.json'
+227 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/string_decoder/package.json'
+228 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/stringstream/package.json'
+229 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/strip-ansi/package.json'
+230 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/strip-bom/package.json'
+231 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/strip-indent/package.json'
+232 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/success-symbol/package.json'
+233 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/supports-color/package.json'
+234 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/to-fast-properties/package.json'
+235 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/tough-cookie/package.json'
+236 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/trim-newlines/package.json'
+237 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/trim-right/package.json'
+238 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/tunnel-agent/package.json'
+239 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/tweetnacl/package.json'
+240 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/user-home/package.json'
+241 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/util-deprecate/package.json'
+242 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/v8flags/package.json'
+243 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/validate-npm-package-license/package.json'
+244 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/verror/package.json'
+245 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/wrappy/package.json'
+246 warn enoent ENOENT: no such file or directory, open '/Users/s/node_modules/xtend/package.json'
+247 warn s No description
+248 warn s No repository field.
+249 warn s No README data
+250 warn s No license field.
+251 verbose stack Error: EACCES: permission denied, access '/Users/s/node_modules/find-up/node_modules'
+251 verbose stack     at Error (native)
+252 verbose cwd /Users/s/IdeaProjects/learn/Fain_Angular/Unit4_Luxoft_Handouts
+253 error Darwin 15.4.0
+254 error argv "/usr/local/Cellar/node/6.1.0/bin/node" "/usr/local/bin/npm" "install"
+255 error node v6.1.0
+256 error npm  v3.8.9
+257 error path /Users/s/node_modules/find-up/node_modules
+258 error code EACCES
+259 error errno -13
+260 error syscall access
+261 error Error: EACCES: permission denied, access '/Users/s/node_modules/find-up/node_modules'
+261 error     at Error (native)
+261 error  { Error: EACCES: permission denied, access '/Users/s/node_modules/find-up/node_modules'
+261 error     at Error (native)
+261 error   errno: -13,
+261 error   code: 'EACCES',
+261 error   syscall: 'access',
+261 error   path: '/Users/s/node_modules/find-up/node_modules' }
+262 error Please try running this command again as root/Administrator.
+263 verbose exit [ -13, true ]

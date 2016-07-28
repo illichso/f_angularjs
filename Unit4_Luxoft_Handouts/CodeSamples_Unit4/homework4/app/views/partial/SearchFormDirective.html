@@ -1,9 +1,9 @@
-<div>
+<form name="searchForm" novalidate>
   <div class="col-xs-12 col-md-4">
     <div class="row form-group">
       <div class="col-xs-12 col-sm-6 col-md-12">
         <label class="control-label">Product</label>
-        <input type="text" class="form-control" placeholder="Product title">
+        <input ng-model="ctrl.searchFormService.title" name="title" type="text" ng-minlength="3" class="form-control" placeholder="Product title">
       </div>
       <div class="col-xs-12 col-sm-6 col-md-12">
         <label class="control-label">&nbsp;</label>
@@ -55,4 +55,4 @@
     <br>
     <button class="btn btn-default btn-block btn-primary">Find more</button>
   </div>
-</div>
+</form>

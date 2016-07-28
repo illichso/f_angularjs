@@ -28,7 +28,7 @@
 
 
     /** Finds products by its ID. */
-    getProductById: function (productId) {
+      getProductById: function (productId) {
       return this.getProducts().then(function (products) {
           return _.find(products, function (product) {
               return product.id === productId;
